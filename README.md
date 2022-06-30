@@ -1,1 +1,1 @@
-<h1> Formadores </h1>
+<h1 style="color:blue;"> Formadores </h1>
