@@ -1,0 +1,11 @@
+body {
+   background: #AAAABB;
+}
+h1 {
+    text-align: center;
+}
+#visita {
+   font-style: italic;
+   color: red;
+   font-size: 26px;
+}
