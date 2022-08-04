@@ -1,12 +1,54 @@
 body {
-   background: #AAAABB;
+   background: #D5CABD;
 }
 h1 {
     text-align: center;
 }
 #visita {
    font-style: italic;
-   color: red;
+   color: #845EC2;
    font-size: 26px;
    font-family: 'Courier New', Courier, monospace;
+}
+.box1 {
+   position: absolute;
+   width: 100px;
+   height: 100px;
+   top: 0;
+   right: 0;
+   background: #845EC2;
+}
+.box2 {
+   position: absolute;
+   width: 100px;
+   height: 100px;
+   top: 0;
+   right: 105px;
+   background: #4E8397;
+}
+.box3 {
+   position: absolute;
+   width: 100px;
+   height: 100px;
+   top: 105px;
+   right: 0;
+   background:  #4E8397;
+}
+
+.box4 {
+   position: absolute;
+   width: 100px;
+   height: 100px;
+   top: 105px;
+   right: 105px;
+   background: #845EC2;
+}
+
+.box5 {
+   position: absolute;
+   width: 100px;
+   height: 100px;
+   top: 50px;
+   right: 50px;
+   background: #D5CABD;
 }
