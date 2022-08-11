@@ -48,12 +48,15 @@ h1 {
    position: absolute;
    width: 100px;
    height: 100px;
-   top: 56px;
+   top: 59px;
    right: 56px;
    background:#9cc3e2;
 }
 .box5:hover {
-   background:#000000;
+   background-color: rgba(0, 0, 0, 0.578);
+   width: 206px;
+   right: 6px;
+   
 }
 
 #banner {
