@@ -64,6 +64,8 @@ h1 {
    padding: 15px 15px;
 }
 .boxBanner {
+   display: flex;
+   justify-content: center;
     position: absolute;
     width: 100%;
     background: #9cc3e2;
