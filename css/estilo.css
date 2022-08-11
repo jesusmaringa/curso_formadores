@@ -15,7 +15,7 @@ h1 {
    width: 100px;
    height: 100px;
    top: 6px;
-   right: 0;
+   right: 6px;
    background: #845EC2;
 }
 .box2 {
@@ -23,7 +23,7 @@ h1 {
    width: 100px;
    height: 100px;
    top: 6px;
-   right: 105px;
+   right: 111px;
    background: #4E8397;
 }
 .box3 {
@@ -31,7 +31,7 @@ h1 {
    width: 100px;
    height: 100px;
    top: 111px;
-   right: 0;
+   right: 6px;
    background:  #4E8397;
 }
 
@@ -40,7 +40,7 @@ h1 {
    width: 100px;
    height: 100px;
    top: 111px;
-   right: 105px;
+   right: 111px;
    background: #845EC2;
 }
 
@@ -48,13 +48,16 @@ h1 {
    position: absolute;
    width: 100px;
    height: 100px;
-   top: 53px;
-   right: 53px;
-   background: #D5CABD;
+   top: 56px;
+   right: 56px;
+   background:#9cc3e2;
+}
+.box5:hover {
+   background:#000000;
 }
 
 #banner {
-   width: 50%;
+   width: 45%;
    padding: 15px 15px;
 }
 .boxBanner {
@@ -63,9 +66,7 @@ h1 {
     background: #9cc3e2;
     top: 0;
     left: 0;
-    border-style: double;
-    border-width: 6px;
-
+    height: 220px;
 }
 .conteudo {
    position: absolute;
