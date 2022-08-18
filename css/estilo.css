@@ -51,30 +51,71 @@ h1 {
    top: 59px;
    right: 56px;
    background:#9cc3e2;
+  
 }
 .box5:hover {
    background-color: rgba(0, 0, 0, 0.578);
-   width: 206px;
-   right: 6px;
-   
+   background-color: #cccccc;
+   background-image: radial-gradient(red, yellow);
 }
 
 #banner {
-   width: 45%;
+   height: 70%;
    padding: 15px 15px;
 }
 .boxBanner {
    display: flex;
    justify-content: center;
-    position: absolute;
-    width: 100%;
-    background: #9cc3e2;
-    top: 0;
-    left: 0;
-    height: 220px;
+   position: absolute;
+   width: 100%;
+   background: #9cc3e2;
+   top: 0;
+   left: 0;
+   height: 220px;
 }
 .conteudo {
    position: absolute;
    width: 100%;
    top: 250px;
+}
+.menuTopo {
+   position: absolute;
+   top: 175px;
+   left: 0;
+}
+nav ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: 0;
+}
+li {
+   float: left;
+}
+li a {
+   display: block;
+   color:rgb(0, 0, 0);
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-family: 'Times New Roman', Times, serif;
+   text-transform: uppercase;
+}
+li a:hover{
+   background:#d5d98a64;
+   color: rgb(247, 1, 1);
+} 
+.rodape {
+   position: relative;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+#copy {
+   background: #b96fcb;
+   border-radius: 30px;
+   width: 50%;
+   display: flex;
+   justify-content: center;
+   font-size:18px;
 }
