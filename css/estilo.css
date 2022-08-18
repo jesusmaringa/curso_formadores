@@ -1,5 +1,7 @@
 body {
    background: #D5CABD;
+   margin: 0;
+   padding: 0;
 }
 h1 {
     text-align: center;
@@ -51,7 +53,6 @@ h1 {
    top: 59px;
    right: 56px;
    background:#9cc3e2;
-  
 }
 .box5:hover {
    background-color: rgba(0, 0, 0, 0.578);
